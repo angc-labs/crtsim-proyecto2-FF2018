@@ -8,9 +8,21 @@
 </head>
 <body>
     <h1>Simulación de CRT</h1>
-    <canvas id="vista-frontal" width="400" height="400">
-    </canvas>
-    <input type="button" value="Button" id="boton">
+    <div class="crt-views">
+        <div class="view-container">
+            <h3 class="view-title">Vista frontal</h3>
+            <canvas id="frontView" width="500" height="300"></canvas>
+        </div>
+        <div class="view-container">
+            <h3 class="view-title">Vista vertical</h3>
+            <canvas id="sideView" width="500" height="200"></canvas>
+        </div>
+        <div class="view-container">
+            <h3 class="view-title">Vista horizontal</h3>
+            <canvas id="topView" width="500" height="200"></canvas>
+        </div>
+    </div>
+
     <script src="./src/main.js"></script>
 </body>
 </html>
