@@ -1,8 +1,25 @@
+
 body {
+    min-height: 100vh;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#sideView, #topView, #frontView {
-    background-color: black;
-} 
+canvas {
+    background: #111;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.sim-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10%
+}
