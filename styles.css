@@ -3,6 +3,8 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #57C785;
+    background: linear-gradient(172deg, rgba(87, 199, 133, 1) 0%, rgba(177, 222, 196, 1) 66%, rgba(237, 237, 237, 1) 100%);
 }
 
 canvas {
@@ -23,3 +25,47 @@ canvas {
     grid-template-columns: 2fr 1fr;
     gap: 10%
 }
+
+header {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    min-width: 7vw;
+    max-width: 10vw;
+    width: 100%;
+}
+
+header:nth-child(2) {
+    width: 60%;
+}
+
+.info-field {
+    font-weight: bold;
+}
+
+.info-data {
+    color: #484848;
+}
+
+.info-multiline {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+}
+
+.info-multiline div {
+    display: flex;
+    flex-direction: column;
+}
+
+.inforow {
+    margin-top: 0.3rem;
+}
+
