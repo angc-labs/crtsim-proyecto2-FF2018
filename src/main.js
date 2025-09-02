@@ -94,14 +94,14 @@ const sinusoidalControls = document.getElementById('controles-sinusoidales')
 
 function updateMode(mode) {
     if (mode === 'manual') {
-        sinusoidalControls.style.opacity = '0.5';
-        manualModeBtn.style.background = '#ffcc00';
-        sinusoidalModeBtn.style.background = '#555';
-    } else {
-        sinusoidalControls.style.opacity = '1';
-        manualModeBtn.style.background = '#555';
-        sinusoidalModeBtn.style.background = '#ffcc00';
-    }
+            sinusoidalControls.style.opacity = '0.5';
+            manualModeBtn.style.background = '#0874fc';
+            sinusoidalModeBtn.style.background = '#08438bff';
+        } else {
+            sinusoidalControls.style.opacity = '1';
+            manualModeBtn.style.background = '#08438bff';
+            sinusoidalModeBtn.style.background = '#0874fc';
+        }
 }
 
 // configuración de controles
